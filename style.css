@@ -1,0 +1,101 @@
+.body{
+    background-color: rgba(0, 0, 0, 0.864);
+    color: white;
+}
+img{
+    width: 100%;
+}
+p{
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.bg-home{
+    background: linear-gradient(rgba(0, 0, 0, 0.699),rgba(0, 0, 0, 0.732)), no-repeat center / cover url(./images/bg-home.jpeg);
+    background-attachment: fixed;
+}
+.logo{
+    width: 65px;
+}
+
+.home h1{
+    font-size: clamp(25px, 6vw, 50px);
+    margin-bottom: 10px;
+}
+.home-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+}
+.partenaire-img{
+    display: flex;
+    align-items: center;
+}
+.partenaire img{
+    width: 150px;
+}
+.desti-img img{
+    /* width: 350px; */
+    height: 250px;
+}
+.desti-img{
+    position: relative;
+    transition: .3s ease-in-out;
+}
+.desti-img:hover{
+    transform: translateY(-20px);
+}
+
+.desti-img h6{
+    position: absolute;
+    bottom: 40%;
+    left: 40%;
+    color: rgb(230, 220, 108);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.destination-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.explore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.484), rgba(0, 0, 0, 0.588)), no-repeat center / cover url(./images/ille-de-madelaine.jpg);
+}
+.explore-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.explore-content h3{
+    font-size: 18px;
+}
+.explore-content i{
+    font-size: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 10px;
+}
+footer img{
+    width: 200px;
+}
+footer h5{
+    font-size: 17px;
+}
+footer a{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
