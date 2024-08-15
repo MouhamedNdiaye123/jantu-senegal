@@ -9,18 +9,32 @@ p{
     font-size: 14px;
     line-height: 23px;
 }
-
+a{
+    display: inline-block;
+    text-decoration: none;
+}
 .bg-home{
     background: linear-gradient(rgba(0, 0, 0, 0.699),rgba(0, 0, 0, 0.732)), no-repeat center / cover url(./images/bg-home.jpeg);
     background-attachment: fixed;
+}
+.bg-destination{
+    background: linear-gradient(rgba(0, 0, 0, 0.699),rgba(0, 0, 0, 0.732)), no-repeat center / cover url(./images/bg-desti.jpeg);
+    background-attachment: fixed;
+    min-height: 90vh;
+}
+.bg-about{
+    background: linear-gradient(rgba(0, 0, 0, 0.699),rgba(0, 0, 0, 0.732)), no-repeat center / cover url(./images/bg-about.jpg);
+    background-attachment: fixed;
+    min-height: 90vh;
 }
 .logo{
     width: 65px;
 }
 
 .home h1{
-    font-size: clamp(25px, 6vw, 50px);
-    margin-bottom: 10px;
+    font-size: clamp(22px, 6vw, 45px);
+    margin-bottom: 15px;
+    font-family: "Matemasie", sans-serif;
 }
 .home-content{
     display: flex;
@@ -50,8 +64,8 @@ p{
 
 .desti-img h6{
     position: absolute;
-    bottom: 40%;
-    left: 40%;
+    bottom: 35%;
+    left: 35%;
     color: rgb(230, 220, 108);
     font-size: 18px;
     font-weight: 700;
@@ -71,8 +85,22 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 50vh;
+    min-height: 60vh;
     background: linear-gradient(rgba(0, 0, 0, 0.484), rgba(0, 0, 0, 0.588)), no-repeat center / cover url(./images/ille-de-madelaine.jpg);
+}
+.explore-desti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.484), rgba(0, 0, 0, 0.588)), no-repeat center / cover url(./images/elephant.jpg);
+}
+.explore-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.484), rgba(0, 0, 0, 0.588)), no-repeat center / cover url(./images/lac4.jpg);
 }
 .explore-content{
     display: flex;
@@ -98,4 +126,33 @@ footer h5{
 footer a{
     font-size: 13px;
     margin-bottom: 10px;
+    color: white;
+}
+footer a:hover{
+    color: rgb(230, 220, 108);
+}
+
+.wtsp-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(21, 197, 21);
+    padding: 25px;
+    border-radius: 50px;
+    text-align: center;
+}
+.wtsp-content h3{
+    font-size: 16px;
+}
+.wtsp-content .btn-light{
+    background-color: white;
+    padding: 7px 19px;
+}
+.wtsp-content .btn-light:hover{
+    color: rgb(21, 197, 21);
+}
+
+.about img{
+    height: 350px;
 }
