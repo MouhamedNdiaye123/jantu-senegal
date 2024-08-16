@@ -142,6 +142,16 @@ footer a:hover{
     border-radius: 50px;
     text-align: center;
 }
+.reserve-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(253, 184, 0);
+    padding: 25px;
+    border-radius: 50px;
+    text-align: center;
+}
 .wtsp-content h3{
     font-size: 16px;
 }
@@ -152,7 +162,25 @@ footer a:hover{
 .wtsp-content .btn-light:hover{
     color: rgb(21, 197, 21);
 }
+.reserve-content h3{
+    font-size: 16px;
+}
+.reserve-content .btn-light{
+    background-color: white;
+    padding: 7px 19px;
+}
+.reserve-content .btn-light:hover{
+    color: rgb(253, 184, 0);
+}
 
 .about img{
     height: 350px;
+    border-radius: 20px;
+}
+.reservation-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    max-width: 700px;
 }
